@@ -1,0 +1,125 @@
+INFO:uvicorn.error:Started server process [17620]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:uvicorn.error:Started server process [21152]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:root:b''
+INFO:root:b'{"rowid_object":"3             ","cd_tipo_documento":"3","numero_documento":"3","cd_fuente":"43","cd_tipo_producto":"3","numero_producto":"3","cd_relacion_producto":"3","cd_tipo_plan":"3","fecha_inicio_relacion":"2023-04-01","fecha_fin_relacion":"2023-04-01","cd_estado_contrato":"3","cd_estado_homologado":"3","fecha_actualizacion":"2023-04-01","numero_documento_externo":"3"}'
+INFO:uvicorn.error:Started server process [3948]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:root:b''
+INFO:root:b'{"rowid_object":"3             ","cd_tipo_documento":"3","numero_documento":"3","cd_fuente":"43","cd_tipo_producto":"3","numero_producto":"3","cd_relacion_producto":"3","cd_tipo_plan":"3","fecha_inicio_relacion":"2023-04-01","fecha_fin_relacion":"2023-04-01","cd_estado_contrato":"3","cd_estado_homologado":"3","fecha_actualizacion":"2023-04-01","numero_documento_externo":"3"}'
+INFO:root:b'{\r\n    "rowid_object": "3"\r\n}'
+INFO:root:b'[{"rowid_object":"3             ","cd_tipo_documento":"3","numero_documento":"3","cd_fuente":"43","cd_tipo_producto":"3","numero_producto":"3","cd_relacion_producto":"3","cd_tipo_plan":"3","fecha_inicio_relacion":"2023-04-01","fecha_fin_relacion":"2023-04-01","cd_estado_contrato":"3","cd_estado_homologado":"3","fecha_actualizacion":"2023-04-01","numero_documento_externo":"3"}]'
+INFO:root:b'{\r\n    "rowid_object": "3"\r\n}'
+INFO:root:b'[{"rowid_object":"3             ","cd_tipo_documento":"3","numero_documento":"3","cd_fuente":"43","cd_tipo_producto":"3","numero_producto":"3","cd_relacion_producto":"3","cd_tipo_plan":"3","fecha_inicio_relacion":"2023-04-01","fecha_fin_relacion":"2023-04-01","cd_estado_contrato":"3","cd_estado_homologado":"3","fecha_actualizacion":"2023-04-01","numero_documento_externo":"3"}]'
+INFO:uvicorn.error:Started server process [23096]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:root:b'{\r\n    "rowid_object": "3"\r\n}'
+INFO:root:b'[{"rowid_object":"3             ","cd_tipo_documento":"3","numero_documento":"3","cd_fuente":"43","cd_tipo_producto":"3","numero_producto":"3","cd_relacion_producto":"3","cd_tipo_plan":"3","fecha_inicio_relacion":"2023-04-01","fecha_fin_relacion":"2023-04-01","cd_estado_contrato":"3","cd_estado_homologado":"3","fecha_actualizacion":"2023-04-01","numero_documento_externo":"3"}]'
+INFO:uvicorn.error:Started server process [22208]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+ERROR:uvicorn.error:Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Documents\Relaciones\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 404, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\Usuario\Documents\Relaciones\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\Usuario\Documents\Relaciones\env\lib\site-packages\fastapi\applications.py", line 270, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Usuario\Documents\Relaciones\env\lib\site-packages\starlette\applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Usuario\Documents\Relaciones\env\lib\site-packages\starlette\middleware\errors.py", line 184, in __call__
+    raise exc
+  File "C:\Users\Usuario\Documents\Relaciones\env\lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Usuario\Documents\Relaciones\env\lib\site-packages\starlette\middleware\base.py", line 107, in __call__
+    await response(scope, receive, send)
+  File "C:\Users\Usuario\Documents\Relaciones\env\lib\site-packages\starlette\responses.py", line 170, in __call__
+    await self.background()
+  File "C:\Users\Usuario\Documents\Relaciones\env\lib\site-packages\starlette\background.py", line 28, in __call__
+    await run_in_threadpool(self.func, *self.args, **self.kwargs)
+  File "C:\Users\Usuario\Documents\Relaciones\env\lib\site-packages\starlette\concurrency.py", line 41, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "C:\Users\Usuario\Documents\Relaciones\env\lib\site-packages\anyio\to_thread.py", line 31, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(
+  File "C:\Users\Usuario\Documents\Relaciones\env\lib\site-packages\anyio\_backends\_asyncio.py", line 937, in run_sync_in_worker_thread
+    return await future
+  File "C:\Users\Usuario\Documents\Relaciones\env\lib\site-packages\anyio\_backends\_asyncio.py", line 867, in run
+    result = context.run(func, *args)
+TypeError: log_info() takes 2 positional arguments but 3 were given
+INFO:uvicorn.error:Started server process [19628]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:uvicorn.error:Started server process [19744]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+ERROR:uvicorn.error:Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Documents\Relaciones\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 404, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\Usuario\Documents\Relaciones\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\Usuario\Documents\Relaciones\env\lib\site-packages\fastapi\applications.py", line 270, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Usuario\Documents\Relaciones\env\lib\site-packages\starlette\applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Usuario\Documents\Relaciones\env\lib\site-packages\starlette\middleware\errors.py", line 184, in __call__
+    raise exc
+  File "C:\Users\Usuario\Documents\Relaciones\env\lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Usuario\Documents\Relaciones\env\lib\site-packages\starlette\middleware\base.py", line 106, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "C:\Users\Usuario\Documents\Relaciones\src\.\app.py", line 41, in some_middleware
+    task = BackgroundTask(log_info, req_body, res_body, respuesta)
+NameError: name 'respuesta' is not defined
+INFO:uvicorn.error:Started server process [1588]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:root:b'{\r\n    "rowid_object": "3"\r\n}'
+INFO:root:b'[{"rowid_object":"3             ","cd_tipo_documento":"3","numero_documento":"3","cd_fuente":"43","cd_tipo_producto":"3","numero_producto":"3","cd_relacion_producto":"3","cd_tipo_plan":"3","fecha_inicio_relacion":"2023-04-01","fecha_fin_relacion":"2023-04-01","cd_estado_contrato":"3","cd_estado_homologado":"3","fecha_actualizacion":"2023-04-01","numero_documento_externo":"3"}]'
+INFO:root:200
+INFO:uvicorn.error:Started server process [15828]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:root:b'{\r\n    "rowid_object": "3"\r\n}'
+INFO:root:b'[{"rowid_object":"3             ","cd_tipo_documento":"3","numero_documento":"3","cd_fuente":"43","cd_tipo_producto":"3","numero_producto":"3","cd_relacion_producto":"3","cd_tipo_plan":"3","fecha_inicio_relacion":"2023-04-01","fecha_fin_relacion":"2023-04-01","cd_estado_contrato":"3","cd_estado_homologado":"3","fecha_actualizacion":"2023-04-01","numero_documento_externo":"3"}]'
+INFO:root:{200}
+INFO:uvicorn.error:Started server process [22992]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:root:b'{\r\n    "rowid_object": "3"\r\n}'
+INFO:root:b'[{"rowid_object":"3             ","cd_tipo_documento":"3","numero_documento":"3","cd_fuente":"43","cd_tipo_producto":"3","numero_producto":"3","cd_relacion_producto":"3","cd_tipo_plan":"3","fecha_inicio_relacion":"2023-04-01","fecha_fin_relacion":"2023-04-01","cd_estado_contrato":"3","cd_estado_homologado":"3","fecha_actualizacion":"2023-04-01","numero_documento_externo":"3"}]'
+INFO:root:{200, '/consulta/prueba/'}
+INFO:uvicorn.error:Started server process [10484]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+ERROR:uvicorn.error:Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Documents\Relaciones\env\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 404, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\Usuario\Documents\Relaciones\env\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\Usuario\Documents\Relaciones\env\lib\site-packages\fastapi\applications.py", line 270, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Usuario\Documents\Relaciones\env\lib\site-packages\starlette\applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Usuario\Documents\Relaciones\env\lib\site-packages\starlette\middleware\errors.py", line 184, in __call__
+    raise exc
+  File "C:\Users\Usuario\Documents\Relaciones\env\lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Usuario\Documents\Relaciones\env\lib\site-packages\starlette\middleware\base.py", line 106, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "C:\Users\Usuario\Documents\Relaciones\src\.\app.py", line 41, in some_middleware
+    respuesta = {response.status_code, request.url.path, response.asctime}
+AttributeError: 'StreamingResponse' object has no attribute 'asctime'
+INFO:uvicorn.error:Started server process [13372]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:root:b'{\r\n    "rowid_object": "3"\r\n}'
+INFO:root:b'[{"rowid_object":"3             ","cd_tipo_documento":"3","numero_documento":"3","cd_fuente":"43","cd_tipo_producto":"3","numero_producto":"3","cd_relacion_producto":"3","cd_tipo_plan":"3","fecha_inicio_relacion":"2023-04-01","fecha_fin_relacion":"2023-04-01","cd_estado_contrato":"3","cd_estado_homologado":"3","fecha_actualizacion":"2023-04-01","numero_documento_externo":"3"}]'
+INFO:root:{200, '/consulta/prueba/'}

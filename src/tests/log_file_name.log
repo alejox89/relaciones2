@@ -1,0 +1,52 @@
+2023-05-03 21:40:30.895- b''
+2023-05-03 21:40:30.895- b'{"rowid_object":"100011000     ","cd_tipo_documento":"TIPDOC_FS001","numero_documento":"36080005","cd_fuente":"CXREF","cd_tipo_producto":"S","numero_producto":"3030303030","cd_relacion_producto":"T","cd_tipo_plan":"2022-01-01","fecha_inicio_relacion":"2022-01-01","fecha_fin_relacion":"2022-01-01","cd_estado_contrato":"E","cd_estado_homologado":"03","fecha_actualizacion":"2022-01-26","numero_documento_externo":null}'
+2023-05-03 21:40:30.895- {'Respuesta: OK', 'Metodo: GET', 'URL: /consulta/relperproductos/rowid_object'}
+2023-05-03 21:40:30.897- HTTP Request: GET http://testserver/consulta/relperproductos/rowid_object?rowid_object=100011000 "HTTP/1.1 200 OK"
+2023-05-03 21:47:15.066- b''
+2023-05-03 21:47:15.066- b'{"rowid_object":"100011000     ","cd_tipo_documento":"TIPDOC_FS001","numero_documento":"36080005","cd_fuente":"CXREF","cd_tipo_producto":"S","numero_producto":"3030303030","cd_relacion_producto":"T","cd_tipo_plan":"2022-01-01","fecha_inicio_relacion":"2022-01-01","fecha_fin_relacion":"2022-01-01","cd_estado_contrato":"E","cd_estado_homologado":"03","fecha_actualizacion":"2022-01-26","numero_documento_externo":null}'
+2023-05-03 21:47:15.066- {'Respuesta: OK', 'Metodo: GET', 'URL: /consulta/relperproductos/rowid_object'}
+2023-05-03 21:47:15.068- HTTP Request: GET http://testserver/consulta/relperproductos/rowid_object?rowid_object=100011000 "HTTP/1.1 200 OK"
+2023-05-03 21:53:54.159- b''
+2023-05-03 21:53:54.160- b'{"rowid_object":"100011000     ","cd_tipo_documento":"TIPDOC_FS001","numero_documento":"36080005","cd_fuente":"CXREF","cd_tipo_producto":"S","numero_producto":"3030303030","cd_relacion_producto":"T","cd_tipo_plan":"2022-01-01","fecha_inicio_relacion":"2022-01-01","fecha_fin_relacion":"2022-01-01","cd_estado_contrato":"E","cd_estado_homologado":"03","fecha_actualizacion":"2022-01-26","numero_documento_externo":null}'
+2023-05-03 21:53:54.160- {'URL: /consulta/relperproductos/rowid_object', 'Metodo: GET', 'Respuesta: OK'}
+2023-05-03 21:53:54.162- HTTP Request: GET http://testserver/consulta/relperproductos/rowid_object?rowid_object=100011000 "HTTP/1.1 200 OK"
+2023-05-03 21:55:08.723- b''
+2023-05-03 21:55:08.724- b'{"rowid_object":"100011000     ","cd_tipo_documento":"TIPDOC_FS001","numero_documento":"36080005","cd_fuente":"CXREF","cd_tipo_producto":"S","numero_producto":"3030303030","cd_relacion_producto":"T","cd_tipo_plan":"2022-01-01","fecha_inicio_relacion":"2022-01-01","fecha_fin_relacion":"2022-01-01","cd_estado_contrato":"E","cd_estado_homologado":"03","fecha_actualizacion":"2022-01-26","numero_documento_externo":null}'
+2023-05-03 21:55:08.724- {'Respuesta: OK', 'URL: /consulta/relperproductos/rowid_object', 'Metodo: GET'}
+2023-05-03 21:55:08.727- HTTP Request: GET http://testserver/consulta/relperproductos/rowid_object?rowid_object=100011000 "HTTP/1.1 200 OK"
+2023-05-03 21:55:22.067- b''
+2023-05-03 21:55:22.068- b''
+2023-05-03 21:55:22.068- {'URL: /consulta/relperproductos/rowid_object', 'Metodo: GET', 'Respuesta: NOT_FOUND'}
+2023-05-03 21:55:22.070- HTTP Request: GET http://testserver/consulta/relperproductos/rowid_object?rowid_object=100011000414 "HTTP/1.1 404 Not Found"
+2023-05-03 21:56:55.456- b''
+2023-05-03 21:56:55.456- b'{"rowid_object":"100011000     ","cd_tipo_documento":"TIPDOC_FS001","numero_documento":"36080005","cd_fuente":"CXREF","cd_tipo_producto":"S","numero_producto":"3030303030","cd_relacion_producto":"T","cd_tipo_plan":"2022-01-01","fecha_inicio_relacion":"2022-01-01","fecha_fin_relacion":"2022-01-01","cd_estado_contrato":"E","cd_estado_homologado":"03","fecha_actualizacion":"2022-01-26","numero_documento_externo":null}'
+2023-05-03 21:56:55.457- {'Metodo: GET', 'URL: /consulta/relperproductos/rowid_object', 'Respuesta: OK'}
+2023-05-03 21:56:55.459- HTTP Request: GET http://testserver/consulta/relperproductos/rowid_object?rowid_object=100011000 "HTTP/1.1 200 OK"
+2023-05-03 21:56:55.652- b''
+2023-05-03 21:56:55.652- b''
+2023-05-03 21:56:55.652- {'Metodo: GET', 'URL: /consulta/relperproductos/rowid_object', 'Respuesta: NOT_FOUND'}
+2023-05-03 21:56:55.654- HTTP Request: GET http://testserver/consulta/relperproductos/rowid_object?rowid_object=100011000414 "HTTP/1.1 404 Not Found"
+2023-05-03 22:04:46.080- b''
+2023-05-03 22:04:46.080- b'{"rowid_object":"100011000     ","cd_tipo_documento":"TIPDOC_FS001","numero_documento":"36080005","cd_fuente":"CXREF","cd_tipo_producto":"S","numero_producto":"3030303030","cd_relacion_producto":"T","cd_tipo_plan":"2022-01-01","fecha_inicio_relacion":"2022-01-01","fecha_fin_relacion":"2022-01-01","cd_estado_contrato":"E","cd_estado_homologado":"03","fecha_actualizacion":"2022-01-26","numero_documento_externo":null}'
+2023-05-03 22:04:46.081- {'Respuesta: OK', 'URL: /consulta/relperproductos/rowid_object', 'Metodo: GET'}
+2023-05-03 22:04:46.085- HTTP Request: GET http://testserver/consulta/relperproductos/rowid_object?rowid_object=100011000 "HTTP/1.1 200 OK"
+2023-05-03 22:04:46.298- b''
+2023-05-03 22:04:46.298- b''
+2023-05-03 22:04:46.298- {'URL: /consulta/relperproductos/rowid_object', 'Respuesta: NOT_FOUND', 'Metodo: GET'}
+2023-05-03 22:04:46.301- HTTP Request: GET http://testserver/consulta/relperproductos/rowid_object?rowid_object=100011000414 "HTTP/1.1 404 Not Found"
+2023-05-03 22:09:40.142- b''
+2023-05-03 22:09:40.142- b'{"rowid_object":"100011000     ","cd_tipo_documento":"TIPDOC_FS001","numero_documento":"36080005","cd_fuente":"CXREF","cd_tipo_producto":"S","numero_producto":"3030303030","cd_relacion_producto":"T","cd_tipo_plan":"2022-01-01","fecha_inicio_relacion":"2022-01-01","fecha_fin_relacion":"2022-01-01","cd_estado_contrato":"E","cd_estado_homologado":"03","fecha_actualizacion":"2022-01-26","numero_documento_externo":null}'
+2023-05-03 22:09:40.142- {'Respuesta: OK', 'Metodo: GET', 'URL: /consulta/relperproductos/rowid_object'}
+2023-05-03 22:09:40.144- HTTP Request: GET http://testserver/consulta/relperproductos/rowid_object?rowid_object=100011000 "HTTP/1.1 200 OK"
+2023-05-03 22:09:40.292- b''
+2023-05-03 22:09:40.292- b''
+2023-05-03 22:09:40.292- {'Respuesta: NOT_FOUND', 'Metodo: GET', 'URL: /consulta/relperproductos/rowid_object'}
+2023-05-03 22:09:40.294- HTTP Request: GET http://testserver/consulta/relperproductos/rowid_object?rowid_object=100011000414 "HTTP/1.1 404 Not Found"
+2023-05-03 22:20:44.275- b''
+2023-05-03 22:20:44.276- b'{"rowid_object":"100011000     ","cd_tipo_documento":"TIPDOC_FS001","numero_documento":"36080005","cd_fuente":"CXREF","cd_tipo_producto":"S","numero_producto":"3030303030","cd_relacion_producto":"T","cd_tipo_plan":"2022-01-01","fecha_inicio_relacion":"2022-01-01","fecha_fin_relacion":"2022-01-01","cd_estado_contrato":"E","cd_estado_homologado":"03","fecha_actualizacion":"2022-01-26","numero_documento_externo":null}'
+2023-05-03 22:20:44.276- {'URL: /consulta/relperproductos/rowid_object', 'Metodo: GET', 'Respuesta: OK'}
+2023-05-03 22:20:44.279- HTTP Request: GET http://testserver/consulta/relperproductos/rowid_object?rowid_object=100011000 "HTTP/1.1 200 OK"
+2023-05-03 22:20:44.421- b''
+2023-05-03 22:20:44.421- b''
+2023-05-03 22:20:44.421- {'Respuesta: NOT_FOUND', 'Metodo: GET', 'URL: /consulta/relperproductos/rowid_object'}
+2023-05-03 22:20:44.423- HTTP Request: GET http://testserver/consulta/relperproductos/rowid_object?rowid_object=100011000414 "HTTP/1.1 404 Not Found"
